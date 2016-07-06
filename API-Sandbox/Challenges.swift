@@ -106,7 +106,6 @@ internal func exerciseThree() {
     for movieData in allMoviesData {
         allMovies.append(Movie(json: movieData))
     }
-    print(allMovies)
     /*
      
      Uncomment the below print statement and then print out the names of the two Disney
